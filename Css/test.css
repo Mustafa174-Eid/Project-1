@@ -114,8 +114,19 @@
     }
 
     .tab-content img {
-        margin-left: 53px; 
-    
+        margin-left: 51px;
+
+    }
+}
+
+@media(max-width:360px) {
+    .nav-tabs {
+        justify-content: space-around;
+    }
+
+    .tab-content img {
+        margin-left: 45px;
+
     }
 }
 
