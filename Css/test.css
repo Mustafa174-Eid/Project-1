@@ -13,12 +13,12 @@
 
 }
 
-.nav-link {
+.nav-item {
     color: rgb(237, 243, 201);
     font-size: 20px;
 }
 
-.collapse .nav-link:hover {
+.collapse .nav-item:hover {
     background-color: white;
     border-radius: 30px;
     text-decoration-line: underline;
@@ -111,11 +111,10 @@
 }
 
 @media(max-width:375px) {
-    .gallary .nav, .nav-link{
+    .gallary .nav-tabs{
         margin:  auto;
         width: 100%;
         font-size:15px ;
-        border: 1px solid wheat;
         justify-content: space-around;
         flex-wrap: nowrap;
     
